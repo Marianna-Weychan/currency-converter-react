@@ -35,7 +35,7 @@ const Form = () => {
                             value={yourAmount}
                             onChange={({ target }) => setYourAmountExchange(target.value)}
                             required
-                            autofocus
+                            autoFocus
                         />
                     </label>
                 </p>
