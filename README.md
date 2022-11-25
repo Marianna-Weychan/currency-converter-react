@@ -1,6 +1,6 @@
 # 💱 Currency-converter
 
-![How tu use](images/Animation.gif)
+![How tu use](public/images/Animation.gif)
 
 ## 🔍 Demo
 
