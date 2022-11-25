@@ -47,7 +47,9 @@ const Form = () => {
                         onChange={({ target }) => setCurrency(target.value)}
                     >
                         {currencies.map((currency) => (
-                            <option value={currency.short}>
+                            <option
+                                key={currency.short}
+                                value={currency.short}>
                                 {currency.name}
                             </option>
                         ))};
