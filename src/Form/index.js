@@ -15,7 +15,7 @@ const Form = () => {
         calculateResult(yourAmount, currency);
     };
 
-    const calculateResult = (amountExchange, currency) => {
+    const calculateResult = (yourAmount, currency) => {
         const { rate, short } = currencies.find(({ short }) => short === currency);
 
         setResult(`${(+yourAmount / rate).toFixed(2)} ${short}`);
@@ -47,7 +47,7 @@ const Form = () => {
                         onChange={({ target }) => setCurrency(target.value)}
                     >
                         {currencies.map((currency) => (
-                            <option key={currency.short} value={currency.short}>
+                            <option value={currency.short}>
                                 {currency.name}
                             </option>
                         ))};
