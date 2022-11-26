@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import { currencies } from "../currencies/index.js";
 
 
-const initialCurrency = currencies[0].short;
+const INITIAL_CURRENCY = currencies[0].short;
 
 const Form = () => {
     const [yourAmount, setYourAmountExchange] = useState("");
-    const [currency, setCurrency] = useState(initialCurrency);
+    const [currency, setCurrency] = useState(INITIAL_CURRENCY);
     const [result, setResult] = useState(null);
 
     const onFormSubmit = (event) => {
