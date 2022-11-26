@@ -58,7 +58,9 @@ const Form = () => {
             </fieldset>
             <button className="form__button">Policz</button>
             <p className="form__result">
-                Twoja kwota w wybranej walucie: <strong>{result}</strong></p>
+                Twoja kwota w wybranej
+                walucie: <strong>{result}</strong>
+            </p>
         </form>
     );
 };
