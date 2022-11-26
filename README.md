@@ -17,7 +17,7 @@ Enter your amount in PLN, and then select the currency in which you want to get 
 - HTML,
 - CSS,
 - BEM convention,
-- JAVA SCRIPT ES6,
+- JAVASCRIPT ES6,
 - GIT
 - FLEX
 - MEDIA QUERIES
