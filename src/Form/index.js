@@ -6,19 +6,19 @@ import { currencies } from "../currencies/index.js";
 const INITIAL_CURRENCY = currencies[0].short;
 
 const Form = () => {
-    const [yourAmount, setYourAmountExchange] = useState("");
+    const [amount, setamountExchange] = useState("");
     const [currency, setCurrency] = useState(INITIAL_CURRENCY);
     const [result, setResult] = useState(null);
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        calculateResult(yourAmount, currency);
+        calculateResult(amount, currency);
     };
 
-    const calculateResult = (yourAmount, currency) => {
+    const calculateResult = (amount, currency) => {
         const { rate, short } = currencies.find(({ short }) => short === currency);
 
-        setResult(`${(+yourAmount / rate).toFixed(2)} ${short}`);
+        setResult(`${(+amount / rate).toFixed(2)} ${short}`);
     };
 
     return (
@@ -32,8 +32,8 @@ const Form = () => {
                             type="number"
                             min="0.01"
                             step="any"
-                            value={yourAmount}
-                            onChange={({ target }) => setYourAmountExchange(target.value)}
+                            value={amount}
+                            onChange={({ target }) => setamountExchange(target.value)}
                             required
                             autoFocus
                         />
