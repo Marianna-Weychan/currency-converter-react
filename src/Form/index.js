@@ -1,7 +1,7 @@
 import "./style.css";
 import React, { useState } from "react";
 import { currencies } from "../currencies/index.js";
-import { DateAndClock } from "./Date";
+import { Date } from "./Date";
 
 const INITIAL_CURRENCY = currencies[0].short;
 
@@ -24,7 +24,7 @@ const Form = () => {
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <fieldset className="form__fieldset">
-                <DateAndClock />
+                <Date />
                 <legend className="form__legend">Wybierz walutę, którą chcesz przeliczyć</legend>
                 <p>
                     <label><span className="form__labelText">Twoja kwota w PLN:</span>

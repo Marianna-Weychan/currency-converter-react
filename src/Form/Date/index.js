@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style.css";
 
-const formattedDate = (date) =>
+const formatDate = (date) =>
     date.toLocaleString(undefined, {
         weekday: "long",
         month: "long",
@@ -11,12 +11,12 @@ const formattedDate = (date) =>
         second: "2-digit",
     });
 
-export const DateAndClock = () => {
-    const [date, setDate] = useState(new Date());
+export const Date = () => {
+    const [date, setDate] = useState(new window.Date());
 
     useEffect(() => {
         const dateInterval = setInterval(() => {
-            setDate(new Date());
+            setDate(new window.Date());
         }, 1000);
 
         return () => {
@@ -25,10 +25,10 @@ export const DateAndClock = () => {
     }, []);
 
     return (
-        <div className="form__date">
+        <div className="date">
             Dzisiaj jest
             {" "}
-            {formattedDate(date)}
+            {formatDate(date)}
         </div>
     );
 };
