@@ -1,0 +1,7 @@
+.form__date {
+    display: flex;
+    justify-content: right;
+    font-family: 'Inconsolata', monospace;
+    font-size: small;
+    color: rgb(5, 78, 80);
+}

@@ -1,10 +1,16 @@
 import Form from "./Form";
-import Container from "./Container"
+import Container from "./Container";
 
-const App = () => (
-  <Container>
-    <Form />
-  </Container>
-);
+
+
+function App() {
+  return (
+    <>
+      <Container>
+        <Form />
+      </Container>
+    </>
+  );
+};
 
 export default App;
