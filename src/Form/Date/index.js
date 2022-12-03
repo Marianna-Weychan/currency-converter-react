@@ -29,7 +29,6 @@ export const DateAndClock = () => {
             Dzisiaj jest
             {" "}
             {formattedDate(date)}
-
         </div>
     );
 };
