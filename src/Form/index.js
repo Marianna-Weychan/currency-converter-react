@@ -1,4 +1,4 @@
-import "./style.css";
+import { StyledForm, Fieldset, Legend, LabelText, FormField, Button, Result, StyledSelect } from "./styled";
 import React, { useState } from "react";
 import { currencies } from "../currencies/index.js";
 import { Date } from "./Date";
@@ -22,14 +22,14 @@ const Form = () => {
     };
 
     return (
-        <form className="form" onSubmit={onFormSubmit}>
-            <fieldset className="form__fieldset">
+        <StyledForm onSubmit={onFormSubmit}>
+            <Fieldset>
                 <Date />
-                <legend className="form__legend">Wybierz walutę, którą chcesz przeliczyć</legend>
+                <Legend>Wybierz walutę, którą chcesz przeliczyć</Legend>
                 <p>
-                    <label><span className="form__labelText">Twoja kwota w PLN:</span>
-                        <input
-                            className="form__field"
+                    <label>
+                        <LabelText>Twoja kwota w PLN:</LabelText>
+                        <FormField
                             type="number"
                             min="0.01"
                             step="any"
@@ -40,9 +40,8 @@ const Form = () => {
                         />
                     </label>
                 </p>
-                <label><span className="form__labelText"> Wybierz walutę:</span>
-                    <select
-                        className="form__field"
+                <label><LabelText> Wybierz walutę:</LabelText>
+                    <StyledSelect
                         name="currency"
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
@@ -54,15 +53,15 @@ const Form = () => {
                                 {currency.name}
                             </option>
                         ))};
-                    </select>
+                    </StyledSelect>
                 </label>
-            </fieldset>
-            <button className="form__button">Policz</button>
-            <p className="form__result">
+            </Fieldset>
+            <Button>Policz</Button>
+            <Result>
                 Twoja kwota w wybranej
                 walucie: <strong>{result}</strong>
-            </p>
-        </form>
+            </Result>
+        </StyledForm>
     );
 };
 
