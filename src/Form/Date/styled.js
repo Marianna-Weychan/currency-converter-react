@@ -6,5 +6,5 @@ export const StyledDate = styled.div`
     align-items: flex-start;
     font-family: 'Inconsolata', monospace;
     font-size: small;
-    color: rgb(5, 78, 80);s
+    color: rgb(5, 78, 80);
 `;
