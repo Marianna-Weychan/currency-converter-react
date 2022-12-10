@@ -1,37 +1,4 @@
-.form {
-    padding: 30px;
-    background-color: #e6e7e0d9;
-    border-radius: 5px;
-    font-size: 20px;
-
-}
-
-.form__fieldset {
-    width: 100%;
-    max-width: 800px;
-    padding: 20px;
-    margin: 10px;
-    border: 5px solid rgba(32, 96, 113, 0.627);
-    border-radius: 5px;
-}
-
-.form__legend {
-    padding: 10px;
-    margin: 5px;
-    background-color: #368e8ef2;
-    color: white;
-    border-radius: 5px;
-    border-radius: 5px;
-}
-
-.form__labelText {
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    text-align: center;
-
-}
+.form__labelText {}
 
 .form__field {
     max-width: 300px;
