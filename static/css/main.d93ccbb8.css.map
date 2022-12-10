@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.d93ccbb8.css","mappings":"AAAA,KAEE,+FAAwC,CACxC,qBAAsB,CAFtB,qBAGF,CAEA,iBAGE,kBACF","sources":["index.css"],"sourcesContent":["html {\n  box-sizing: border-box;\n  background-image: url(\"./currency2.jpg\");\n  background-size: cover;\n}\n\n*,\n::after,\n::before {\n  box-sizing: inherit;\n}"],"names":[],"sourceRoot":""}
