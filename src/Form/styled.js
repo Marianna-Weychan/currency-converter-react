@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const StyledForm = styled.form`
     padding: 30px;
@@ -33,7 +33,7 @@ export const LabelText = styled.span`
     text-align: center;
 `;
 
-export const FormField = styled.input`
+export const StyledInput = styled.input`
     max-width: 300px;
     height: 50px;
     width: 100%;
@@ -54,7 +54,7 @@ export const StyledSelect = styled.select`
     margin: 10px;
     border: 3px solid #35819e;
     border-radius: 5px;
-`
+`;
 
 export const Button = styled.button`
    width: 100%;
@@ -80,6 +80,3 @@ export const Result = styled.p`
     margin: 10px;
     background-color: #59909f54;
 `;
-
-
-

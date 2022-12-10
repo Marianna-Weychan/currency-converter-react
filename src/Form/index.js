@@ -1,4 +1,4 @@
-import { StyledForm, Fieldset, Legend, LabelText, FormField, Button, Result, StyledSelect } from "./styled";
+import { StyledForm, Fieldset, Legend, LabelText, StyledInput, StyledSelect, Button, Result } from "./styled";
 import React, { useState } from "react";
 import { currencies } from "../currencies/index.js";
 import { Date } from "./Date";
@@ -29,7 +29,7 @@ const Form = () => {
                 <p>
                     <label>
                         <LabelText>Twoja kwota w PLN:</LabelText>
-                        <FormField
+                        <StyledInput
                             type="number"
                             min="0.01"
                             step="any"
