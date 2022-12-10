@@ -1,7 +1,7 @@
 import { StyledForm, Fieldset, Legend, LabelText, StyledInput, StyledSelect, Button, Result } from "./styled";
 import React, { useState } from "react";
 import { currencies } from "../currencies/index.js";
-import { Date } from "./Date";
+import Date from "./Date";
 
 const INITIAL_CURRENCY = currencies[0].short;
 
