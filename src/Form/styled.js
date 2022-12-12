@@ -67,10 +67,10 @@ export const Button = styled.button`
     transition: 0.3s;
 
 &:hover {
-    background-color:  ${({ theme }) => theme.colors.pelorous};
+    	filter: brightness(120%);
 }
 &:active {
-    background-color:  ${({ theme }) => theme.colors.downy};
+    	filter: brightness(140%);
 }`;
 
 export const Result = styled.p`
