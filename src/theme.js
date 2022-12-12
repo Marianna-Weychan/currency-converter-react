@@ -9,18 +9,5 @@ export const theme = {
         botticelli: "#CEE6E8",
         pelorous: "#2FA3B6",
         downy: "#71C9CC",
-
-
-
-
-
-
-
-
-
-    },
-
-    breakpoint: {
-        mobile: 767
     },
 };
