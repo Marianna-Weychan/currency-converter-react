@@ -1,8 +1,8 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const StyledForm = styled.form`
     padding: 30px;
-    background-color: #e6e7e0d9;
+    background-color: ${({ theme }) => theme.colors.greenWhite};
     border-radius: 5px;
     font-size: 20px;
 `;
@@ -19,14 +19,14 @@ export const Fieldset = styled.fieldset`
 export const Legend = styled.legend`
     padding: 10px;
     margin: 5px;
-    background-color: #368e8ef2;
-    color: white;
+    background-color: ${({ theme }) => theme.colors.paradiso};
+    color: ${({ theme }) => theme.colors.white};
     border-radius: 5px;
     border-radius: 5px;
 `;
 
 export const LabelText = styled.span`
-   display: inline-block;
+    display: inline-block;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -39,11 +39,11 @@ export const StyledInput = styled.input`
     width: 100%;
     padding: 20p;
     margin: 10px;
-    border: 3px solid #35819e;
+    border: 3px solid ${({ theme }) => theme.colors.astral};
     border-radius: 5px;
 
 &:valid {
-     background-color: rgba(126, 184, 228, 0.329);
+   background-color: ${({ theme }) => theme.colors.botticelli};
 }`;
 
 export const StyledSelect = styled.select`
@@ -52,25 +52,25 @@ export const StyledSelect = styled.select`
     width: 100%;
     padding: 20p;
     margin: 10px;
-    border: 3px solid #35819e;
+    border: 3px solid ${({ theme }) => theme.colors.astral};
     border-radius: 5px;
 `;
 
 export const Button = styled.button`
-   width: 100%;
+    width: 100%;
     margin: 10px;
     padding: 10px;
-    background-color: hsla(192, 59%, 34%, 0.729);
+    background-color: ${({ theme }) => theme.colors.paradiso};
     border: none;
     border-radius: 5px;
-    color: white;
+    color: ${({ theme }) => theme.colors.white};
     transition: 0.3s;
 
 &:hover {
-    background-color: hsla(192, 59%, 45%, 0.729);
+    background-color:  ${({ theme }) => theme.colors.pelorous};
 }
 &:active {
-    background-color: hsla(192, 59%, 65%, 0.729);
+    background-color:  ${({ theme }) => theme.colors.downy};
 }`;
 
 export const Result = styled.p`
@@ -78,5 +78,5 @@ export const Result = styled.p`
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
-    background-color: #59909f54;
+    background-color: ${({ theme }) => theme.colors.halfBaked};
 `;
