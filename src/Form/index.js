@@ -1,4 +1,4 @@
-import { StyledForm, Fieldset, Legend, LabelText, StyledInput, StyledSelect, Button, Result } from "./styled";
+import { StyledForm, Fieldset, Legend, LabelText, StyledInput, Button, Result } from "./styled";
 import React, { useState } from "react";
 import { currencies } from "../currencies.js";
 import Date from "./Date";
@@ -41,7 +41,8 @@ const Form = () => {
                     </label>
                 </p>
                 <label><LabelText> Wybierz walutę:</LabelText>
-                    <StyledSelect
+                    <StyledInput
+                        as="select"
                         name="currency"
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
@@ -53,7 +54,7 @@ const Form = () => {
                                 {currency.name}
                             </option>
                         ))};
-                    </StyledSelect>
+                    </StyledInput>
                 </label>
             </Fieldset>
             <Button>Policz</Button>

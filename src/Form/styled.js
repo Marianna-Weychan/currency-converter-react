@@ -46,16 +46,6 @@ export const StyledInput = styled.input`
    background-color: ${({ theme }) => theme.colors.botticelli};
 }`;
 
-export const StyledSelect = styled.select`
-    max-width: 300px;
-    height: 50px;
-    width: 100%;
-    padding: 20p;
-    margin: 10px;
-    border: 3px solid ${({ theme }) => theme.colors.astral};
-    border-radius: 5px;
-`;
-
 export const Button = styled.button`
     width: 100%;
     margin: 10px;
