@@ -7,5 +7,7 @@ export const theme = {
         halfBaked: "#90BECB",
         astral: "#35819E",
         botticelli: "#CEE6E8",
+        teal: "#008080",
+        crimson: "#db143c",
     },
 };
