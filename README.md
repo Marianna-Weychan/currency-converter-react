@@ -1,6 +1,6 @@
 # 💱 Currency-converter
 
-![How tu use](public/images/Animation.gif)
+![How tu use](public/images/animation.gif)
 
 ## 🔍 Demo
 
@@ -24,7 +24,6 @@ Enter your amount in PLN, and then select the currency in which you want to get 
 - GRID
 - MARKDOWN
 - CREATE REACT APP (HOOKS, HANDLING EVENTS, STYLED COMPONENTS, STYLED ICONS, USEREF, USESTATE, USEEFFECT, LOCALSTORAGE, CUSTOMHOOK)
-
 
 # Getting Started with Create React App
 
