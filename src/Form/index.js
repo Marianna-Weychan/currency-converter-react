@@ -1,4 +1,15 @@
-import { StyledForm, Fieldset, Legend, LabelText, StyledInput, Button, Result, Info, Loading, Failure } from "./styled";
+import {
+    StyledForm,
+    Fieldset,
+    Legend,
+    LabelText,
+    StyledInput,
+    Button,
+    Result,
+    Info,
+    Loading,
+    Failure
+} from "./styled";
 import React, { useState } from "react";
 import Date from "./Date";
 import { useRatesData } from "./useRatesData";
