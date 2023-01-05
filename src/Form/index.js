@@ -33,7 +33,10 @@ const Form = () => {
                 ratesData.state === "error" ? (
                     <Failure>
                         Ups... coś poszło nie tak 😐 <br />
-                        Sprawdź czy masz połączenie z internetem i spróbuj odświeżyć stronę przeglądarki.
+                        Sprawdź czy masz połączenie z internetem i spróbuj odświeżyć stronę przeglądarki. <br />
+                        Jeśli masz dostęp do internetu a strona nadl nie działa, <br />
+                        prawdopodobnie problem leży po naszej stronie, <br />
+                        za co przepraszamy i postaramy się jak najszybciej naprawić błąd.
                     </Failure>
                 ) : (
                     <>
