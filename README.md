@@ -32,7 +32,6 @@ Enter your amount in PLN, then select the currency in which you want to receive 
 - ERROR HANDLING
 - DOWNLOADING DATA FROM API
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
