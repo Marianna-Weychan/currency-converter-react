@@ -70,3 +70,17 @@ export const Result = styled.p`
     margin: 10px;
     background-color: ${({ theme }) => theme.colors.halfBaked};
 `;
+
+export const Info = styled.p`
+  color: ${({ theme }) => theme.colors.teal};
+  font-size: 15px;
+  text-align: center;
+`;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.colors.teal};
+`;
+
+export const Failure = styled.p`
+color: ${({ theme }) => theme.colors.crimson};
+`;
