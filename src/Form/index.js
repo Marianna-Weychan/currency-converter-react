@@ -39,7 +39,7 @@ const Form = () => {
                     <>
                         <Fieldset>
                             <Date />
-                            <Legend>Wybierz walutę, którą chcesz przeliczyć</Legend>
+                            <Legend>Twój przelicznik walut</Legend>
                             <p>
                                 <label>
                                     <LabelText>Twoja kwota w PLN:</LabelText>
@@ -80,8 +80,9 @@ const Form = () => {
                             Kursy walut aktualne na dzień: {ratesData.date}
                         </Info>
                     </>
-                )}
-        </StyledForm>
+                )
+            }
+        </StyledForm >
     )
 };
 export default Form
