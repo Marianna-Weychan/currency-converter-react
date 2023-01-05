@@ -8,9 +8,10 @@
 
 ## [](https://github.com/Marianna-Weychan/currency-converter/edit/main/README.md#short-description) ⌨️ Short description
 
-Simple currency converter.
-From the amount you provide in PLN, it will calculate amounts in 4 selected currencies.
-Enter your amount in PLN, and then select the currency in which you want to get the new amount.
+Currency calculator. The application will automatically convert the amount in the selected currency from the amount you enter in PLN.
+Currency rates are constantly downloaded and updated from the European Central Bank.
+How to use?
+Enter your amount in PLN, then select the currency in which you want to receive the new amount and click "convert" to receive the converted amount.
 
 ## 👩‍💻 Used Technoligies:
 
@@ -23,7 +24,14 @@ Enter your amount in PLN, and then select the currency in which you want to get 
 - MEDIA QUERIES
 - GRID
 - MARKDOWN
-- CREATE REACT APP (HOOKS, HANDLING EVENTS, STYLED COMPONENTS, STYLED ICONS, USEREF, USESTATE, USEEFFECT, LOCALSTORAGE, CUSTOMHOOK)
+- IMMUTABILITY
+- CREATE REACT APP (HOOKS (CUSTOMHOOKS), HANDLING EVENTS, STYLED COMPONENTS, USEREF, USESTATE, USEEFFECT, LOCALSTORAGE)
+- NPM AND WEBPACK
+- AXIOS
+- PROMISE, ASYNC/AWAIT
+- ERROR HANDLING
+- DOWNLOADING DATA FROM API
+
 
 # Getting Started with Create React App
 
