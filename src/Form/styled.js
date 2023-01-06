@@ -5,6 +5,7 @@ export const StyledForm = styled.form`
     background-color: ${({ theme }) => theme.colors.greenWhite};
     border-radius: 5px;
     font-size: 20px;
+    min-height: 500px;
 `;
 
 export const Fieldset = styled.fieldset`
@@ -79,6 +80,10 @@ export const Info = styled.p`
 
 export const Loading = styled.p`
     color: ${({ theme }) => theme.colors.teal};
+    width: 100%;
+    max-width: 800px;
+    min-height: 460px;
+    text-align: center;
 `;
 
 export const Failure = styled.p`
