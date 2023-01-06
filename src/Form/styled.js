@@ -88,4 +88,8 @@ export const Loading = styled.p`
 
 export const Failure = styled.p`
 color: ${({ theme }) => theme.colors.crimson};
+width: 100%;
+max-width: 800px;
+min-height: 460px;
+text-align: center;
 `;
